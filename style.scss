@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+
+    .screen{
+        width: 100%;
+        height: 100vh;
+        font-family: Montserrat Alternates;
+    }
+    .header{
+        width: 100%;
+        display: flex;
+        color: #434242;
+        font-family: Montserrat;
+        justify-content: space-between;
+
+
+        .header_pagesContainer{
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            font-weight: 700;
+            font-size: 36px;
+            align-items: center;
+            
+        }
+        .header_pagesContainer a{
+            text-decoration: none;
+            color: #434242;
+
+        }
+        .header_pagesContainer li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header_pages_middleCircle{
+            width: 6px;
+            height: 6px;
+            background-color: #434242;
+            border-radius: 50%;
+        }
+        #header_languageSelection{
+            width: 105px;
+            font-size: 36px;
+            font-weight: 700;
+            color: #434242;
+            border: none;
+        }
+        .header_themeChanger{
+            width: 100px;
+            height: 50px;
+            display: flex;
+            justify-content: flex-start;
+            background-color: #6D9886;
+            border-radius: 50px;
+            transition: 3s ease;
+        }
+        .header_themeChanger_Circle{
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+            border-radius: 50px;
+            border: 3.5px solid #6D9886;
+            transition: 3s ease;
+        }
+        .header_languageAndThemeContainer{
+            width: 270px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .header_activeLi{
+            width: 45px;
+            height: 3px;
+            border-radius: 3px;
+            background-color: #434242;
+            margin-top: 8px;
+        }
+
+    }
+
+
+}
