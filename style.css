@@ -4,17 +4,36 @@
   box-sizing: border-box;
 }
 
+::-moz-selection {
+  color: #434242;
+  background-color: #6D9886;
+}
+
+::selection {
+  color: #434242;
+  background-color: #6D9886;
+}
+
 .wrap {
   width: 100%;
   min-height: 100vh;
-  padding: 60px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
+}
+.wrap .decoration {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
 }
 .wrap .screen {
   width: 100%;
   height: 100vh;
   font-family: Montserrat Alternates;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 .wrap .header {
   width: 100%;
@@ -22,6 +41,9 @@
   color: #434242;
   font-family: Montserrat;
   justify-content: space-between;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .wrap .header .header_pagesContainer {
   width: 500px;
@@ -82,4 +104,69 @@
   border-radius: 3px;
   background-color: #434242;
   margin-top: 8px;
+}
+.wrap .mainPage {
+  color: #434242;
+  height: 80vh;
+}
+.wrap .mainPage .mainPage_title {
+  font-size: 64px;
+  font-weight: 700;
+  margin-top: 30px;
+  text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 2;
+}
+.wrap .mainPage .mainPage_text {
+  font-size: 24px;
+  font-weight: 400;
+  width: 806px;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+}
+.wrap .mainPage .mainPage_photo {
+  width: 575px;
+  margin-top: 25px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: relative;
+  z-index: 2;
+}
+.wrap .mainPage .decorationCircle1 {
+  width: 126px;
+  height: 126px;
+  background-color: #62AC8D;
+  top: 60px;
+  left: 160px;
+}
+.wrap .mainPage .decorationCircle2 {
+  width: 158px;
+  height: 158px;
+  background-color: #7CD3AE;
+  top: 0px;
+  left: 800px;
+}
+.wrap .mainPage .decorationCircle3 {
+  width: 170px;
+  height: 170px;
+  background-color: #638074;
+  top: 200px;
+  left: 1150px;
+}
+.wrap .mainPage .decorationCircle4 {
+  width: 89px;
+  height: 89px;
+  background-color: #53C18C;
+  top: 450px;
+  left: 60px;
+}
+.wrap .mainPage .decorationCircle5 {
+  width: 70px;
+  height: 70px;
+  background-color: #53C18C;
+  top: 500px;
+  left: 1000px;
 }/*# sourceMappingURL=style.css.map */
