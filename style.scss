@@ -66,6 +66,7 @@
         .header_pagesContainer a{
             text-decoration: none;
             color: #434242;
+            cursor: pointer;
 
         }
         .header_pagesContainer li{
@@ -86,6 +87,7 @@
             font-weight: 700;
             color: #434242;
             border: none;
+            cursor: pointer;
         }
         .header_themeChanger{
             width: 100px;
@@ -95,6 +97,7 @@
             background-color: #6D9886;
             border-radius: 50px;
             transition: 3s ease;
+            cursor: pointer;
         }
         .header_themeChanger_Circle{
             width: 50px;
@@ -151,6 +154,7 @@
             position: relative;
             z-index: 2;
             transition: opacity 0.5s;
+            cursor: pointer;
         }
         .decorationCircle1{
             width: 126px;

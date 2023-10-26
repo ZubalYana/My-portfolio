@@ -2,6 +2,9 @@
   .wrap {
     padding: 20px;
   }
+  .wrap .screen {
+    width: 100%;
+  }
   .wrap .header .header_pagesContainer {
     font-size: 24px;
     width: 350px;
@@ -23,5 +26,36 @@
   .wrap .header .header_activeLi {
     margin-top: 4px;
     width: 30px;
+  }
+  .wrap .mainPage .mainPage_text {
+    width: 100%;
+    text-align: start;
+  }
+  .wrap .mainPage .mainPage_photo {
+    width: 100%;
+  }
+  .wrap .mainPage .decorationCircle2 {
+    width: 100px;
+    height: 100px;
+    left: -16px;
+    top: 25px;
+  }
+  .wrap .mainPage .decorationCircle1 {
+    left: 250px;
+    top: 100px;
+  }
+  .wrap .mainPage .decorationCircle3 {
+    left: 400px;
+    width: 60px;
+    height: 60px;
+    top: 0px;
+  }
+  .wrap .mainPage .decorationCircle5 {
+    left: 30px;
+    top: 310px;
+  }
+  .wrap .mainPage .decorationCircle4 {
+    top: 350px;
+    left: 350px;
   }
 }/*# sourceMappingURL=adaptive.css.map */

@@ -1,6 +1,9 @@
 @media screen and (max-device-width: 500px) {
     .wrap{
         padding: 20px;
+        .screen{
+            width: 100%;
+        }
         .header{
         
             .header_pagesContainer{
@@ -25,7 +28,43 @@
                 margin-top: 4px;
                 width: 30px;
             }
+            
         }
+        .mainPage{
+            .mainPage_text{
+                width: 100%;
+                text-align: start;
+            }
+            .mainPage_photo{
+                width: 100%;
+            }
+            .decorationCircle2{
+                width: 100px;
+                height: 100px;
+                left: -16px;
+                top: 25px;
+            }
+            .decorationCircle1{
+                left: 250px;
+                top: 100px;
+            }
+            .decorationCircle3{
+                left: 400px;
+                width: 60px;
+                height: 60px;
+                top: 0px;
+            }
+            .decorationCircle5{
+                left: 30px;
+                top: 310px;
+            }
+            .decorationCircle4{
+                top: 350px;
+                left: 350px;
+            }
+        }
+
     }
+
 
 }
