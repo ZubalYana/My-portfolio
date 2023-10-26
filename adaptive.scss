@@ -1,0 +1,31 @@
+@media screen and (max-device-width: 500px) {
+    .wrap{
+        padding: 20px;
+        .header{
+        
+            .header_pagesContainer{
+                font-size: 24px;
+                width: 350px;
+            }
+            .header_languageAndThemeContainer{
+                display: none;
+            }
+            .header_burger{
+                display: flex;
+                flex-direction: column;
+            }
+            .header_burger_item{
+                width: 30px;
+                height: 4px;
+                background-color: #434242;
+                border-radius: 20px;
+                margin-top: 4px;
+            }
+            .header_activeLi{
+                margin-top: 4px;
+                width: 30px;
+            }
+        }
+    }
+
+}

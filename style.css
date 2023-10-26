@@ -117,6 +117,9 @@
   background-color: #434242;
   margin-top: 8px;
 }
+.wrap .header .header_activeLi_none {
+  background-color: #fff;
+}
 .wrap .mainPage {
   color: #434242;
   height: 80vh;

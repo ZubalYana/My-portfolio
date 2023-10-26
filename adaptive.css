@@ -1,0 +1,27 @@
+@media screen and (max-device-width: 500px) {
+  .wrap {
+    padding: 20px;
+  }
+  .wrap .header .header_pagesContainer {
+    font-size: 24px;
+    width: 350px;
+  }
+  .wrap .header .header_languageAndThemeContainer {
+    display: none;
+  }
+  .wrap .header .header_burger {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrap .header .header_burger_item {
+    width: 30px;
+    height: 4px;
+    background-color: #434242;
+    border-radius: 20px;
+    margin-top: 4px;
+  }
+  .wrap .header .header_activeLi {
+    margin-top: 4px;
+    width: 30px;
+  }
+}/*# sourceMappingURL=adaptive.css.map */
