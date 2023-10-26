@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -15,17 +14,16 @@
   background-color: #6D9886;
 }
 
-/* Стилізація для браузерів, які підтримують вендорні префікси */
 ::-webkit-scrollbar {
-  width: 12px; /* Задайте ширину скролбара */
+  width: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6D9886; /* Колір для "ползунка" скролбара */
+  background: #6D9886;
 }
 
 ::-webkit-scrollbar-track {
-  background: #F0F0F0; /* Колір для треку скролбара */
+  background: #F0F0F0;
 }
 
 .wrap {
@@ -148,6 +146,7 @@
           user-select: none;
   position: relative;
   z-index: 2;
+  transition: opacity 0.5s;
 }
 .wrap .mainPage .decorationCircle1 {
   width: 126px;
