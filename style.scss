@@ -212,8 +212,12 @@
             color: #6D9886;
             text-align: center;
             padding: 15px;
+            cursor: pointer;
+            
         }
-
+        .skillsPage_skill:hover{
+            filter: blur(5px);
+        }
         .skillsPage_skillName{
             font-size: 32px;
             font-weight: 600;
