@@ -192,6 +192,42 @@
             left: 1000px;
         }
     }
+    .skillsPage{
+        padding: 60px;
+        padding-top: 130px;
+        .skillsPage_title{
+            font-size: 36px;
+            font-weight: 600;
+            color: #6D9886;
+        }
+        .skillsPage_skill{
+            width: 259px;
+            height: 309px;
+            border: 2px solid #6D9886;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #6D9886;
+            text-align: center;
+            padding: 25px;
+        }
+        #HTMLandCSSpic{
+            width: 166px;
+        }
+        .skillsPage_skillName{
+            font-size: 32px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+        .skillsPage_skillDescription{
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 25px;
+
+        }
+    }
 
 
 }
