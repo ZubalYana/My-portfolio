@@ -194,15 +194,15 @@
     }
     .skillsPage{
         padding: 60px;
-        padding-top: 130px;
+        padding-top: 80px;
         .skillsPage_title{
             font-size: 36px;
             font-weight: 600;
             color: #6D9886;
         }
         .skillsPage_skill{
-            width: 259px;
-            height: 309px;
+            width: 235px;
+            height: 276px;
             border: 2px solid #6D9886;
             border-radius: 20px;
             display: flex;
@@ -211,11 +211,9 @@
             justify-content: center;
             color: #6D9886;
             text-align: center;
-            padding: 25px;
+            padding: 15px;
         }
-        #HTMLandCSSpic{
-            width: 166px;
-        }
+
         .skillsPage_skillName{
             font-size: 32px;
             font-weight: 600;
@@ -227,6 +225,39 @@
             margin-top: 25px;
 
         }
+        .skillsPage_skillsRow{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 32px;
+        }
+        #HTMLandCSSpic{
+            width: 142px;
+            user-select: none;
+        }
+        #JavaScript{
+            width: 77px;
+            height: 80px;
+            user-select: none;
+        }
+        #Figma{
+            width: 60px;
+            user-select: none;
+        }
+        #JSON{
+            width: 80px;
+            user-select: none;
+        }
+        #SCCS{
+            font-size: 56px;
+            font-weight: 900;
+            letter-spacing: -8px;
+            user-select: none;
+        }
+        #JSON_skill{
+            margin-left: -430px;
+        }
+
     }
 
 
