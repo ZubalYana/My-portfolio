@@ -63,6 +63,21 @@
                 left: 350px;
             }
         }
+        .skillsPage{
+            margin-top: 160px;
+            text-align: center;
+        }
+        .skillsPage_skillsRow{
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 32px;
+        }
+        .skillsPage_skill{
+            margin-bottom: 20px;
+        }
+        #JSON_skill{
+            margin-right: -430px;
+        }
 
     }
 
