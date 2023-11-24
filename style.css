@@ -36,7 +36,7 @@
 .wrap .decoration {
   position: absolute;
   border-radius: 50%;
-  z-index: 1;
+  z-index: -1;
 }
 .wrap .screen {
   width: 100%;
@@ -212,6 +212,7 @@
   text-align: center;
   padding: 15px;
   cursor: pointer;
+  transition: 0.7s ease;
 }
 .wrap .skillsPage .skillsPage_skill:hover {
   filter: blur(5px);
@@ -267,4 +268,40 @@
 }
 .wrap .skillsPage #JSON_skill {
   margin-left: -430px;
+}
+.wrap .skillsPage .skillsPage_skill_question {
+  font-size: 64px;
+  font-weight: 700;
+  color: #6D9886;
+  text-shadow: 4px 4px #567D6C;
+  position: absolute;
+  opacity: 0;
+  transition: 0.7s ease;
+}
+.wrap .skillsPage .skillsPage_skill_hoverContainer {
+  width: 235px;
+  height: 276px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s ease;
+}
+.wrap .skillsPage .skillsPage_skill_hoverContainer:hover .skillsPage_skill_question {
+  opacity: 1;
+  transition: 0.7s ease;
+}
+.wrap .skillsPage .decorationCircle6 {
+  width: 126px;
+  height: 126px;
+  background-color: #62AC8D;
+  top: 80px;
+  left: 330px;
+}
+.wrap .skillsPage .decorationCircle7 {
+  width: 105px;
+  height: 105px;
+  background-color: #D3E7DE;
+  top: 120px;
+  right: 330px;
 }/*# sourceMappingURL=style.css.map */
