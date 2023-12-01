@@ -38,5 +38,5 @@ $('#myPhoto').click(function() {
 
 $('.skillsPage_skill').click(function(){
     $('.skillsPage_popupContainer').css('display', 'flex')
-    // $('.skillsPage').css('filter', 'blur(5px)')
+    $(this).removeClass('skillsPage_skill_hover');
 })

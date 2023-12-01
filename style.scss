@@ -36,7 +36,7 @@
     }
     .screen{
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
         font-family: Montserrat Alternates;
         display: flex;
         flex-direction: column;
@@ -342,7 +342,14 @@
             background-color: #6D9886;
         }
         
-
+    }
+    .softSkills{
+        color: #434242;
+        .softSkills_title{
+            font-size: 48px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
     }
 
 
