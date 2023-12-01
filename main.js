@@ -35,3 +35,8 @@ $('#myPhoto').click(function() {
         photo = 'defolt';
     }
 });
+
+$('.skillsPage_skill').click(function(){
+    $('.skillsPage_popupContainer').css('display', 'flex')
+    // $('.skillsPage').css('filter', 'blur(5px)')
+})
