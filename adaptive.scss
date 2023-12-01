@@ -70,13 +70,37 @@
         .skillsPage_skillsRow{
             flex-direction: column;
             align-items: center;
-            margin-bottom: 32px;
         }
         .skillsPage_skill{
             margin-bottom: 20px;
         }
         #JSON_skill{
             margin-right: -430px;
+        }
+        // #skillsPage_skillsRow2{
+        //     margin-top: -32px;
+        // }
+        .skillsPage_skill_hoverContainer{
+            margin-top: 32px;
+        }
+        #decorationCircle7{
+            top: 400px;
+        }
+        #decorationCircle8{
+            left: 10px;
+            top: 850px;
+        }
+        #decorationCircle9{
+            top: 670px;
+            left: 300px;
+        }
+        #decorationCircle10{
+            top: 1400px;
+            left: 250px;
+        }
+        #decorationCircle11{
+            left: 60px;
+            top: 1200px;
         }
 
     }

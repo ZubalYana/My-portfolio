@@ -215,6 +215,7 @@
             cursor: pointer;
             transition: 0.7s ease;
             
+            
         }
         .skillsPage_skill:hover{
             filter: blur(5px);
@@ -234,7 +235,6 @@
             width: 100%;
             display: flex;
             justify-content: space-around;
-            margin-top: 32px;
         }
         #HTMLandCSSpic{
             width: 142px;
@@ -279,6 +279,8 @@
             justify-content: center;
             align-items: center;
             transition: 0.7s ease;
+            margin-top: 32px;
+
         }
         .skillsPage_skill_hoverContainer:hover .skillsPage_skill_question{
             opacity: 1;
@@ -326,6 +328,7 @@
             top: 660px;
             left: 570px;
         }
+        
 
     }
 

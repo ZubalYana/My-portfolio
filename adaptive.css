@@ -65,12 +65,33 @@
   .wrap .skillsPage_skillsRow {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 32px;
   }
   .wrap .skillsPage_skill {
     margin-bottom: 20px;
   }
   .wrap #JSON_skill {
     margin-right: -430px;
+  }
+  .wrap .skillsPage_skill_hoverContainer {
+    margin-top: 32px;
+  }
+  .wrap #decorationCircle7 {
+    top: 400px;
+  }
+  .wrap #decorationCircle8 {
+    left: 10px;
+    top: 850px;
+  }
+  .wrap #decorationCircle9 {
+    top: 670px;
+    left: 300px;
+  }
+  .wrap #decorationCircle10 {
+    top: 1400px;
+    left: 250px;
+  }
+  .wrap #decorationCircle11 {
+    left: 60px;
+    top: 1200px;
   }
 }/*# sourceMappingURL=adaptive.css.map */
