@@ -125,7 +125,7 @@
 }
 .wrap .mainPage {
   color: #434242;
-  height: 80vh;
+  min-height: 93vh;
 }
 .wrap .mainPage .mainPage_title {
   font-size: 64px;
@@ -189,10 +189,6 @@
   background-color: #53C18C;
   top: 500px;
   left: 1000px;
-}
-.wrap .skillsPage {
-  padding: 60px;
-  padding-top: 80px;
 }
 .wrap .skillsPage .skillsPage_title {
   font-size: 36px;
@@ -348,9 +344,21 @@
 }
 .wrap .softSkills {
   color: #434242;
+  display: flex;
+  flex-direction: row;
 }
 .wrap .softSkills .softSkills_title {
   font-size: 48px;
   font-weight: 800;
   text-transform: uppercase;
+}
+.wrap .softSkills .softSkills_skiils {
+  display: flex;
+  flex-direction: column;
+  margin-left: 95px;
+}
+.wrap .softSkills .softSkills_skill {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */

@@ -127,7 +127,7 @@
 
     .mainPage{
         color: #434242;
-        height: 80vh;
+        min-height: 93vh;
     
 
         .mainPage_title{
@@ -193,8 +193,6 @@
         }
     }
     .skillsPage{
-        padding: 60px;
-        padding-top: 80px;
         .skillsPage_title{
             font-size: 36px;
             font-weight: 600;
@@ -345,10 +343,22 @@
     }
     .softSkills{
         color: #434242;
+        display: flex;
+        flex-direction: row;
         .softSkills_title{
             font-size: 48px;
             font-weight: 800;
             text-transform: uppercase;
+        }
+        .softSkills_skiils{
+            display: flex;
+            flex-direction: column;
+            margin-left: 95px;
+        }
+        .softSkills_skill{
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 30px;
         }
     }
 
