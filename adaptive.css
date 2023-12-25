@@ -62,36 +62,68 @@
     margin-top: 70px;
     text-align: center;
   }
-  .wrap .skillsPage_skillsRow {
-    flex-direction: column;
-    align-items: center;
-  }
-  .wrap .skillsPage_skill {
-    margin-bottom: 20px;
-  }
-  .wrap #JSON_skill {
-    margin-right: -430px;
-  }
-  .wrap .skillsPage_skill_hoverContainer {
+  .wrap .skillsPage .skillsPage_skill_hoverContainer {
     margin-top: 32px;
   }
-  .wrap #decorationCircle7 {
+  .wrap .skillsPage #decorationCircle7 {
     top: 400px;
   }
-  .wrap #decorationCircle8 {
+  .wrap .skillsPage #decorationCircle8 {
     left: 10px;
     top: 850px;
   }
-  .wrap #decorationCircle9 {
+  .wrap .skillsPage #decorationCircle9 {
     top: 670px;
     left: 300px;
   }
-  .wrap #decorationCircle10 {
+  .wrap .skillsPage #decorationCircle10 {
     top: 1400px;
     left: 250px;
   }
-  .wrap #decorationCircle11 {
+  .wrap .skillsPage #decorationCircle11 {
     left: 60px;
     top: 1200px;
+  }
+  .wrap .skillsPage .skillsPage_skillsRow {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrap .skillsPage .skillsPage_skill {
+    margin-bottom: 20px;
+  }
+  .wrap .skillsPage #JSON_skill {
+    margin-right: -430px;
+  }
+  .wrap .softSkills .softSkills_title {
+    font-size: 40px;
+  }
+  .wrap .softSkills .softSkills_skill {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .wrap .softSkills .decorationCircle12 {
+    width: 100px;
+    height: 100px;
+    left: 310px;
+    top: 130px;
+  }
+  .wrap .softSkills .decorationCircle14 {
+    height: 120px;
+    width: 120px;
+    left: 300px;
+    top: 380px;
+  }
+  .wrap .softSkills .decorationCircle15 {
+    left: 70px;
+  }
+  .wrap .softSkills .decorationCircle16 {
+    width: 90px;
+    height: 90px;
+    left: 40px;
+  }
+  .wrap .softSkills .decorationCircle17 {
+    width: 60px;
+    height: 60px;
+    left: 200px;
   }
 }/*# sourceMappingURL=adaptive.css.map */

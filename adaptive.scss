@@ -66,42 +66,75 @@
         .skillsPage{
             margin-top: 70px;
             text-align: center;
+            .skillsPage_skill_hoverContainer{
+                margin-top: 32px;
+            }
+            #decorationCircle7{
+                top: 400px;
+            }
+            #decorationCircle8{
+                left: 10px;
+                top: 850px;
+            }
+            #decorationCircle9{
+                top: 670px;
+                left: 300px;
+            }
+            #decorationCircle10{
+                top: 1400px;
+                left: 250px;
+            }
+            #decorationCircle11{
+                left: 60px;
+                top: 1200px;
+            }
+            .skillsPage_skillsRow{
+                flex-direction: column;
+                align-items: center;
+            }
+            .skillsPage_skill{
+                margin-bottom: 20px;
+            }
+            #JSON_skill{
+                margin-right: -430px;
+            }
         }
-        .skillsPage_skillsRow{
-            flex-direction: column;
-            align-items: center;
+        .softSkills{
+            .softSkills_title{
+                font-size: 40px;
+            }
+            .softSkills_skill{
+                font-size: 28px;
+                margin-bottom: 20px;
+            }
+            .decorationCircle12{
+                width: 100px;
+                height: 100px;
+                left: 310px;
+                top: 130px;
+            }
+            .decorationCircle14{
+                height: 120px;
+                width: 120px;
+                left: 300px;
+                top: 380px;
+            }
+            .decorationCircle15{
+                left: 70px;
+
+            }
+            .decorationCircle16{
+                width: 90px;
+                height: 90px;
+                left: 40px;
+            }
+            .decorationCircle17{
+                width: 60px;
+                height: 60px;
+                left: 200px;
+            }
         }
-        .skillsPage_skill{
-            margin-bottom: 20px;
-        }
-        #JSON_skill{
-            margin-right: -430px;
-        }
-        // #skillsPage_skillsRow2{
-        //     margin-top: -32px;
-        // }
-        .skillsPage_skill_hoverContainer{
-            margin-top: 32px;
-        }
-        #decorationCircle7{
-            top: 400px;
-        }
-        #decorationCircle8{
-            left: 10px;
-            top: 850px;
-        }
-        #decorationCircle9{
-            top: 670px;
-            left: 300px;
-        }
-        #decorationCircle10{
-            top: 1400px;
-            left: 250px;
-        }
-        #decorationCircle11{
-            left: 60px;
-            top: 1200px;
-        }
+
 
     }
 
