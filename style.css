@@ -305,7 +305,7 @@
   width: 170px;
   height: 170px;
   background-color: #638074;
-  top: 500px;
+  top: 420px;
   left: 100px;
 }
 .wrap .skillsPage .decorationCircle9 {
@@ -363,4 +363,46 @@
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 30px;
+}
+.wrap .softSkills .decorationCircle12 {
+  width: 126px;
+  height: 126px;
+  background-color: #62AC8D;
+  left: 950px;
+  top: 70px;
+}
+.wrap .softSkills .decorationCircle13 {
+  width: 135px;
+  height: 135px;
+  background-color: #D3E7DE;
+  left: 2px;
+  top: 30px;
+}
+.wrap .softSkills .decorationCircle14 {
+  width: 170px;
+  height: 170px;
+  background-color: #87B2A0;
+  left: 600px;
+  top: 280px;
+}
+.wrap .softSkills .decorationCircle15 {
+  width: 85px;
+  height: 85px;
+  background-color: #53C18C;
+  left: 1300px;
+  top: 280px;
+}
+.wrap .softSkills .decorationCircle16 {
+  width: 158px;
+  height: 158px;
+  background-color: #7CD3AE;
+  left: 90px;
+  top: 490px;
+}
+.wrap .softSkills .decorationCircle17 {
+  width: 170px;
+  height: 170px;
+  background-color: #638074;
+  left: 1200px;
+  top: 550px;
 }/*# sourceMappingURL=style.css.map */
