@@ -40,3 +40,4 @@ $('.skillsPage_skill').click(function(){
     $('.skillsPage_popupContainer').css('display', 'flex')
     $(this).removeClass('skillsPage_skill_hover');
 })
+

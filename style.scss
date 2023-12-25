@@ -34,7 +34,7 @@
         border-radius: 50%;
         z-index: -1;
     }
-    .screen{
+    .screen {
         width: 100%;
         min-height: 100vh;
         font-family: Montserrat Alternates;
@@ -42,8 +42,9 @@
         flex-direction: column;
         align-items: center;
         position: relative;
-
     }
+    
+    
     .header{
         width: 100%;
         display: flex;
@@ -338,6 +339,8 @@
             width: 972px;
             height: 510px;
             background-color: #6D9886;
+            position: relative;
+            z-index: 100;
         }
         
     }
@@ -363,4 +366,6 @@
     }
 
 
+
 }
+
