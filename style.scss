@@ -422,6 +422,7 @@
             justify-content: center;
             align-items: center;
             cursor: pointer;
+            transition: 0.5s ease;
         }
         #telegram{
             width: 280px;
@@ -432,6 +433,10 @@
             top: 80px;
             left: 160px;
         }
+        #telegram:hover{
+            background-color: #638074;
+            color: #fff;
+        }
         #gitHub{
             width: 192px;
             height: 192px;
@@ -440,6 +445,10 @@
             font-size: 80px;
             right: 290px;
             top: 120px;
+        }
+        #gitHub:hover{
+            background-color: #62AC8D;
+            color: #fff;
         }
         #instagram{
             width: 267px;
@@ -450,6 +459,10 @@
             right: 230px;
             top: 420px;
         }
+        #instagram:hover{
+            background-color: #7CD3AE;
+            color: #fff;
+        }
         #phone{
             width: 169px;
             height: 169px;
@@ -459,6 +472,10 @@
             left: 160px;
             top: 510px;
         }
+        #phone:hover{
+            background-color: #87B2A0;
+            color: #fff;
+        }
         #gmail{
             width: 212px;
             height: 212px;
@@ -467,6 +484,10 @@
             font-size: 90px;
             right: 670px;
             top: 420px;
+        }
+        #gmail:hover{
+            background-color: #9CE5C6;
+            color: #fff;
         }
         .decorationCircle18{
             width: 126px;
