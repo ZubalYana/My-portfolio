@@ -406,6 +406,69 @@
             top: 550px;
         }
     }
+    .contacts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 64px;
+            font-weight: 600;
+            color: #434242;
+        }
+        .contacts_socialMedia{
+            position: absolute;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        #telegram{
+            width: 280px;
+            height: 280px;
+            border: 2px solid #638074;
+            color: #638074;
+            font-size: 110px;
+            top: 80px;
+            left: 70px;
+        }
+        #gitHub{
+            width: 192px;
+            height: 192px;
+            border: 2px solid #62AC8D;
+            color: #62AC8D;
+            font-size: 80px;
+            right: 170px;
+            top: 120px;
+        }
+        #instagram{
+            width: 267px;
+            height: 267px;
+            border: 2px solid #7CD3AE;
+            color: #7CD3AE;
+            font-size: 90px;
+            right: 230px;
+            top: 420px;
+        }
+        #phone{
+            width: 169px;
+            height: 169px;
+            border: 2px solid #87B2A0;
+            color: #87B2A0;
+            font-size: 60px;
+            left: 160px;
+            top: 480px;
+        }
+        #gmail{
+            width: 212px;
+            height: 212px;
+            border: 2px solid #9CE5C6;
+            color: #9CE5C6;
+            font-size: 90px;
+            right: 670px;
+            top: 420px;
+        }
+    }
 
 
 
