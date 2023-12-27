@@ -126,4 +126,16 @@
     height: 60px;
     left: 200px;
   }
+  .wrap .contacts h1 {
+    font-size: 48px;
+  }
+  .wrap .contacts #telegram {
+    width: 150px;
+    height: 150px;
+    font-size: 64px;
+  }
+  .wrap .contacts #gitHub {
+    width: 100px;
+    height: 100px;
+  }
 }/*# sourceMappingURL=adaptive.css.map */
