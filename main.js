@@ -10,7 +10,6 @@ $('.header_themeChanger').click(function(){
 
 })
 let photo = 'defolt';
-
 $('#myPhoto').click(function() {
     if (photo === 'defolt') {
         $("#myPhoto").css("opacity", 0.9);
