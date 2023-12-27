@@ -130,12 +130,67 @@
     font-size: 48px;
   }
   .wrap .contacts #telegram {
-    width: 150px;
-    height: 150px;
-    font-size: 64px;
+    width: 180px;
+    height: 180px;
+    font-size: 70px;
+    left: 30px;
+    top: 40px;
   }
   .wrap .contacts #gitHub {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
+    font-size: 64px;
+    right: 40px;
+  }
+  .wrap .contacts #instagram {
+    width: 170px;
+    height: 170px;
+    font-size: 70px;
+    left: 260px;
+    top: 500px;
+  }
+  .wrap .contacts #phone {
+    width: 120px;
+    height: 120px;
+    font-size: 48px;
+    left: 20px;
+  }
+  .wrap .contacts #gmail {
+    width: 130px;
+    height: 130px;
+    font-size: 48px;
+    left: 170px;
+    top: 370px;
+  }
+  .wrap .contacts .decorationCircle18 {
+    width: 70px;
+    height: 70px;
+    left: 400px;
+  }
+  .wrap .contacts .decorationCircle19 {
+    width: 150px;
+    height: 150px;
+    left: -10px;
+  }
+  .wrap .contacts .decorationCircle20 {
+    top: 260px;
+  }
+  .wrap .contacts .decorationCircle21 {
+    width: 60px;
+    height: 60px;
+    left: 200px;
+    top: 200px;
+  }
+  .wrap .contacts .decorationCircle22 {
+    width: 50px;
+    height: 50px;
+    left: 150px;
+    top: 520px;
+  }
+  .wrap .contacts .decorationCircle23 {
+    width: 70px;
+    height: 70px;
+    left: 400px;
+    top: 450px;
   }
 }/*# sourceMappingURL=adaptive.css.map */
