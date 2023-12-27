@@ -2,9 +2,12 @@ let theme = 'light';
 $('.header_themeChanger').click(function(){
     if(theme == 'light'){
         $('.header_themeChanger').css('justify-content', 'flex-end')
+        $('.wrap').css('background-color', '#000')
         theme = 'dark';
     }else{
         $('.header_themeChanger').css('justify-content', 'flex-start')
+        $('.wrap').css('background-color', '#fff')
+
         theme = 'light';
     }
 

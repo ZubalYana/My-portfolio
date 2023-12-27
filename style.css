@@ -32,11 +32,12 @@
   padding: 50px;
   display: flex;
   flex-direction: column;
+  z-index: -2;
 }
 .wrap .decoration {
   position: absolute;
   border-radius: 50%;
-  z-index: -1;
+  z-index: 3;
 }
 .wrap .screen {
   width: 100%;
@@ -133,7 +134,7 @@
   margin-top: 30px;
   text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
   position: relative;
-  z-index: 2;
+  z-index: 4;
 }
 .wrap .mainPage .mainPage_text {
   font-size: 24px;
