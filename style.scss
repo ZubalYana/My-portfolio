@@ -146,7 +146,7 @@
             text-align: center;
             margin-top: 20px;
             position: relative;
-            z-index: 2;
+            z-index: 4;
         }
         .mainPage_photo{
             width: 575px;
@@ -213,6 +213,7 @@
             padding: 15px;
             cursor: pointer;
             transition: 0.7s ease;
+            z-index: 4;
             
             
         }
@@ -352,11 +353,13 @@
             font-size: 48px;
             font-weight: 800;
             text-transform: uppercase;
+            z-index: 4;
         }
         .softSkills_skiils{
             display: flex;
             flex-direction: column;
             margin-left: 95px;
+            z-index: 4;
         }
         .softSkills_skill{
             font-size: 36px;
@@ -410,7 +413,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        h1{
+        .contacts_title{
             font-size: 64px;
             font-weight: 600;
             color: #434242;

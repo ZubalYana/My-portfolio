@@ -1,5 +1,6 @@
 let theme = 'light';
 let scrollStyle = document.styleSheets[0];
+
 $('.header_themeChanger').click(function(){
     if(theme == 'light'){
         $('.header_themeChanger').css('justify-content', 'flex-end')
@@ -11,7 +12,20 @@ $('.header_themeChanger').click(function(){
         $('select').css('color', '#d0dbd7')
         $('.header_activeLi').css('background-color', '#d0dbd7');
         $('.header_pages_middleCircle').css('background-color', '#d0dbd7');
-        
+        $('.contacts_title').css('color', '#d0dbd7')
+        $('.contacts_socialMedia').hover(
+            function() {
+                $(this).css('color', '#000');
+            },
+            function() {
+                $(this).css('color', '');
+            }
+        );
+        $('#telegram').css('color', '#638074');
+        $('#gitHub').css('color', '#62AC8D');
+        $('#instagram').css('color', '#7CD3AE');
+        $('#phone').css('color', '#87B2A0');
+        $('#gmail').css('color', '#9CE5C6');
         theme = 'dark';
     }else{
         $('.header_themeChanger').css('justify-content', 'flex-start')
@@ -23,6 +37,20 @@ $('.header_themeChanger').click(function(){
         $('select').css('color', '#333')
         $('.header_activeLi').css('background-color', '#333');
         $('.header_pages_middleCircle').css('background-color', '#333');
+        $('.contacts_title').css('color', '#333')
+        $('.contacts_socialMedia').hover(
+            function() {
+                $(this).css('color', '#fff');
+            },
+            function() {
+                $(this).css('color', ''); 
+            }
+        );
+        $('#telegram').css('color', '#638074');
+        $('#gitHub').css('color', '#62AC8D');
+        $('#instagram').css('color', '#7CD3AE');
+        $('#phone').css('color', '#87B2A0');
+        $('#gmail').css('color', '#9CE5C6');
 
         theme = 'light';
     }
