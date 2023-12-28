@@ -1,12 +1,28 @@
 let theme = 'light';
+let scrollStyle = document.styleSheets[0];
 $('.header_themeChanger').click(function(){
     if(theme == 'light'){
         $('.header_themeChanger').css('justify-content', 'flex-end')
         $('.wrap').css('background-color', '#000')
+        scrollStyle.insertRule('::-webkit-scrollbar-track { background: #333; }', scrollStyle.cssRules.length);
+        $('select').css('background-color', '#000');
+        $('.screen').css('color', '#d0dbd7')
+        $('a').css('color', '#d0dbd7')
+        $('select').css('color', '#d0dbd7')
+        $('.header_activeLi').css('background-color', '#d0dbd7');
+        $('.header_pages_middleCircle').css('background-color', '#d0dbd7');
+        
         theme = 'dark';
     }else{
         $('.header_themeChanger').css('justify-content', 'flex-start')
         $('.wrap').css('background-color', '#fff')
+        scrollStyle.insertRule('::-webkit-scrollbar-track { background: #F0F0F0; }', scrollStyle.cssRules.length);
+        $('select').css('background-color', '#fff');
+        $('.screen').css('color', '#333')
+        $('a').css('color', '#333')
+        $('select').css('color', '#333')
+        $('.header_activeLi').css('background-color', '#333');
+        $('.header_pages_middleCircle').css('background-color', '#333');
 
         theme = 'light';
     }
