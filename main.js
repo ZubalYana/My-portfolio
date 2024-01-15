@@ -26,6 +26,7 @@ $('.header_themeChanger').click(function(){
         $('#instagram').css('color', '#7CD3AE');
         $('#phone').css('color', '#87B2A0');
         $('#gmail').css('color', '#9CE5C6');
+        $('.header_themeChanger_Circle').css('background-color', '#000')
         theme = 'dark';
     }else{
         $('.header_themeChanger').css('justify-content', 'flex-start')
@@ -51,6 +52,7 @@ $('.header_themeChanger').click(function(){
         $('#instagram').css('color', '#7CD3AE');
         $('#phone').css('color', '#87B2A0');
         $('#gmail').css('color', '#9CE5C6');
+        $('.header_themeChanger_Circle').css('background-color', '#fff')
 
         theme = 'light';
     }
