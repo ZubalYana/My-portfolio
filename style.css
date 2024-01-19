@@ -98,7 +98,6 @@
   justify-content: flex-start;
   background-color: #6D9886;
   border-radius: 50px;
-  transition: 3s ease;
   cursor: pointer;
 }
 .wrap .header .header_themeChanger_Circle {
@@ -107,7 +106,6 @@
   background-color: #fff;
   border-radius: 50px;
   border: 3.5px solid #6D9886;
-  transition: 3s ease;
 }
 .wrap .header .header_languageAndThemeContainer {
   width: 270px;

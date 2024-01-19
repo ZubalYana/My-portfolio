@@ -27,6 +27,7 @@ $('.header_themeChanger').click(function(){
         $('#phone').css('color', '#87B2A0');
         $('#gmail').css('color', '#9CE5C6');
         $('.header_themeChanger_Circle').css('background-color', '#000')
+        $('.decorationCircle13').css('background-color', '#6D9886')
         theme = 'dark';
     }else{
         $('.header_themeChanger').css('justify-content', 'flex-start')
@@ -53,6 +54,7 @@ $('.header_themeChanger').click(function(){
         $('#phone').css('color', '#87B2A0');
         $('#gmail').css('color', '#9CE5C6');
         $('.header_themeChanger_Circle').css('background-color', '#fff')
+        $('.decorationCircle13').css('background-color', '#D3E7DE')
 
         theme = 'light';
     }
